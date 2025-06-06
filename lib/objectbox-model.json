@@ -1,0 +1,86 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8674282274417045318",
+      "lastPropertyId": "3:1790579728345477876",
+      "name": "ResponseEntity",
+      "properties": [
+        {
+          "id": "1:7825899843157889196",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:858415754995691426",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:1790579728345477876",
+          "name": "createdAt",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2111752845351609842",
+      "lastPropertyId": "7:2078087464892034455",
+      "name": "JobRecommendationModel",
+      "properties": [
+        {
+          "id": "1:55062360812711104",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5963087005412921489",
+          "name": "recommendedJob",
+          "type": 9
+        },
+        {
+          "id": "3:1023952184687639051",
+          "name": "reason",
+          "type": 9
+        },
+        {
+          "id": "4:3957683756944643653",
+          "name": "requiredSkills",
+          "type": 30
+        },
+        {
+          "id": "5:906691464311797972",
+          "name": "estimatedLearningTime",
+          "type": 9
+        },
+        {
+          "id": "6:2950470267230753931",
+          "name": "potentialIncome",
+          "type": 9
+        },
+        {
+          "id": "7:2078087464892034455",
+          "name": "marketDemand",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:2111752845351609842",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
